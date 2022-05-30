@@ -1,0 +1,13 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import "status-bar.css";
+@import "welcome-header.css";
+@import "login-form.css";
+@import "variables.css";
+body {
+  margin: 0;
+  width: 750px;
+  font-family: "Caveat", cursive;
+  display: flex;
+  flex-direction: column;
+}
