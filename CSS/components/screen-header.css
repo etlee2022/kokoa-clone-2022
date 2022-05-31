@@ -1,0 +1,17 @@
+.screen-header {
+  display: flex;
+  /* 문제: margin 없어도 block요소니까 안겹쳐야 되는 거 아닌가? fixed라서 그런가? 왜 겹치는 거지? */
+  /* 오비이락 원인1: 클론코딩 강의 영상과는 다르게 미리 status-bar에 fixed를 미리 선정해 두었던것을 깜빡하고 있었던게 원인 */
+  /* 오비이락  원인2: Friend's Names Display 문구를 screen-header위로 적어두었음 */
+  margin-top: 31.5px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+}
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header__icons span {
+  margin-left: 25px;
+}

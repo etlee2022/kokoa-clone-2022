@@ -5,14 +5,16 @@
 
 /* Components */
 @import "/CSS/components/status-bar.css";
+@import "/CSS/components/nav-bar.css";
+@import "/CSS/components/screen-header.css";
 
 /* Screens */
 @import "/CSS/screens/login.css";
 
 body {
   margin: 0;
-  width: 750px;
   font-family: "Caveat", cursive;
   display: flex;
   flex-direction: column;
+  height: 1000vh;
 }
