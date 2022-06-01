@@ -1,0 +1,19 @@
+.chats-screen {
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+}
+
+.user-component :nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chats-screen__notification {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+}

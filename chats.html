@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - Kokoa Clone</title>
+    <style></style>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <!-- This convention calls BEM(Block Element Modifier) -->
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- check hero icon(Free SVG icons), Font Awesome  -->
+        <!-- To Do: Wifi Icon -->
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>07:51</span>
+      </div>
+      <div class="status-bar__column">
+        <!-- To Do: Lock Icon with circule -->
+        <span>86%</span>
+        <!-- To Do: Battery Icon-->
+        <i class="fa-solid fa-battery-three-quarters"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span>
+          <i class="fa-regular fa-2xl fa-comment">
+            <span>+</span>
+          </i>
+        </span>
+        <span><i class="fa-solid fa-2xl fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-2xl fa-music"></i></span>
+        <span><i class="fa-solid fa-2xl fa-gear"></i></span>
+      </div>
+    </header>
+
+    <main class="chats-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="https://pbs.twimg.com/media/FRjrSK5VgAAaytD.png"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Rabtle</h4>
+            <h6 class="user-component__subtitle">?토끼?거북?토북이?</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span>06:44</span>
+          <span class="chats-screen__notification">1</span>
+        </div>
+      </div>
+    </main>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <a
+      href="/screenshots/04.png"
+      style="color: red; font-size: 40px; text-align: center"
+    >
+      Temp Image Link
+    </a>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="#"
+            ><i class="fa-solid fa-2xl fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__chat-notification">1</span>
+            <i class="fa-solid fa-2xl fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <i class="fa-solid fa-2xl fa-magnifying-glass"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="#">
+            <span class="nav__dot-notification"></span>
+            <i class="fa-solid fa-2xl fa-ellipsis"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/2ae1bfd76d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

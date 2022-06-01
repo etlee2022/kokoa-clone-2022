@@ -1,6 +1,6 @@
 .screen-header {
   display: flex;
-  margin-top: 31.5px;
+  /* margin-top: 31.5px; status-bar isn't fixed yet */
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
@@ -11,4 +11,15 @@
 }
 .screen-header__icons span {
   margin-left: 25px;
+}
+.screen-header__icons i {
+  position: relative;
+}
+
+.screen-header__icons i span {
+  position: absolute;
+  right: -4px;
+  color: red;
+  font-size: 15px;
+  font-weight: 900;
 }
