@@ -9,6 +9,7 @@
 @import "/CSS/components/screen-header.css";
 @import "/CSS/components/friends.css";
 @import "/CSS/components/user-component.css";
+@import "/CSS/components/badge.css";
 
 /* Screens */
 @import "/CSS/screens/login.css";
@@ -21,4 +22,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 1000vh;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
+  margin-bottom: 15px;
 }

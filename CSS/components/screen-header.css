@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 32px;
@@ -18,8 +19,12 @@
 
 .screen-header__icons i span {
   position: absolute;
-  right: -4px;
-  color: red;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  color: blackred;
+  background-color: white;
+  border-radius: 50%;
   font-size: 15px;
   font-weight: 900;
 }
