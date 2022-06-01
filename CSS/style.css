@@ -13,7 +13,7 @@
 
 /* Screens */
 @import "/CSS/screens/login.css";
-@import "/CSS/screens/chats.css";
+@import "/CSS/find.css";
 
 body {
   margin: 0;

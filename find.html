@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Find - Kokoa Clone</title>
     <style></style>
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
@@ -29,48 +29,74 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-2xl fa-magnifying-glass"></i></span>
-        <span>
-          <i class="fa-regular fa-2xl fa-comment-dots"></i>
-        </span>
-        <span><i class="fa-solid fa-2xl fa-music"></i></span>
-        <span><i class="fa-solid fa-2xl fa-gear"></i></span>
+        <span
+          ><i class="fa-solid fa-2xl fa-gear"
+            ><span class="icon-notification notification-color dot"></span></i
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            class="user-component__avatar"
-            src="https://pbs.twimg.com/media/FRjrSK5VgAAaytD.png"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Rabtle</h4>
-            <h6 class="user-component__subtitle">rabbit??turtle??</h6>
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-fingerprint"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-id-badge"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Reccomended Friends</h6>
+        <span>You ahve no recommend friends,</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span
+            >Go to Openchat Home<i class="fa-solid fa-2xs fa-chevron-right"></i
+          ></span>
+        </div>
+      </div>
+      <div class="open-post">
+        <div class="open-post__column">
+          <h5 class="open-post__title">#BTS</h5>
+          <h6 class="open-post__hashtags">#bts#army#friends</h6>
+          <div class="open-post__members">
+            <img src="https://pbs.twimg.com/media/FRjrSK5VgAAaytD.png" />
+            <span class="open-post__member-count">802 members</span>
+            <div class="divider"></div>
+            <span class="open-member-status">Active</span>
           </div>
         </div>
-        <div class="user-component__column">
-          <span class="user-component__time">06:44</span>
-          <span class="notification-color">1</span>
+
+        <div class="open-post__column">
+          <div class="open-post__photo">
+            <img src="https://pbs.twimg.com/media/FRjrSK5VgAAaytD.png" />
+            <div class="open-post__heart-count">
+              <i class="fa-solid fa-2xs fa-heart"></i>
+              <span>326</span>
+            </div>
+          </div>
         </div>
       </div>
     </main>
 
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
     <a
-      href="/screenshots/04.png"
+      href="/screenshots/05.png"
       style="color: red; font-size: 40px; text-align: center"
     >
       Temp Image Link
@@ -86,7 +112,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="icon-notification notification-color">1</span>
-            <i class="fa-solid fa-2xl fa-comment"></i>
+            <i class="fa-regular fa-2xl fa-comment"></i>
           </a>
         </li>
         <li class="nav__btn">
