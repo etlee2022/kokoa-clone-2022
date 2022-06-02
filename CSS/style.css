@@ -7,13 +7,15 @@
 @import "/CSS/components/status-bar.css";
 @import "/CSS/components/nav-bar.css";
 @import "/CSS/components/screen-header.css";
-@import "/CSS/components/friends.css";
 @import "/CSS/components/user-component.css";
 @import "/CSS/components/badge.css";
+@import "/CSS/components/icon-row.css";
 
 /* Screens */
 @import "/CSS/screens/login.css";
-@import "/CSS/find.css";
+@import "/CSS/screens/friends.css";
+@import "/CSS/screens/find.css";
+@import "/CSS/screens/more.css";
 
 body {
   margin: 0;

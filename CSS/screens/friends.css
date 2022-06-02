@@ -13,14 +13,10 @@
   margin: 0 5px;
 }
 
-.friends-screen {
-  padding: var(--horizontal-space);
-  margin-bottom: 15px;
-}
-
 .friends-screen__channel {
   border-top: var(--main-border);
   padding: 15px 0;
+  margin-top: 10px;
 }
 
 .friends-screen__channel-header {
