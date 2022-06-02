@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
     <style></style>
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
@@ -21,44 +21,49 @@
         <span>07:51</span>
       </div>
       <div class="status-bar__column">
-        <!-- To Do: Lock Icon with circle -->
+        <!-- To Do: Lock Icon with circule -->
         <span>86%</span>
         <!-- To Do: Battery Icon-->
         <i class="fa-solid fa-battery-three-quarters"></i>
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fa-solid fa-2xl fa-magnifying-glass"></i></span>
-        <span>
-          <i class="fa-regular fa-2xl fa-comment-dots"></i>
-        </span>
-        <span><i class="fa-solid fa-2xl fa-music"></i></span>
-        <span><i class="fa-solid fa-2xl fa-gear"></i></span>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html">
+          <i class="fa fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <i class="fa-solid fa-2x fa-magnifying-glass"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              class="user-component__avatar"
-              src="https://avatars.githubusercontent.com/u/3612017?v=4"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Nicolas</h4>
-              <h6 class="user-component__subtitle">rabbit??turtle??</h6>
-            </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fa-solid fa-bullhorn"></i>
+            <span>Notices</span>
           </div>
-          <div class="user-component__column">
-            <span class="user-component__time">06:44</span>
-            <span class="notification-color">1</span>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fa-solid fa-flask"></i>
+            <span>Kokoa Lab</span>
           </div>
-        </div>
-      </a>
+        </li>
+        <li class="settings__setting">
+          <div class="settings__setting__column">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>Version</span>
+          </div>
+          <div class="settings__setting__column">Latest Version</div>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
@@ -71,7 +76,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="icon-notification notification-color">1</span>
-            <i class="fa-solid fa-2xl fa-comment"></i>
+            <i class="fa-regular fa-2xl fa-comment"></i>
           </a>
         </li>
         <li class="nav__btn">

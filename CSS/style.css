@@ -4,18 +4,21 @@
 @import "reset.css";
 
 /* Components */
-@import "/CSS/components/status-bar.css";
-@import "/CSS/components/nav-bar.css";
-@import "/CSS/components/screen-header.css";
-@import "/CSS/components/user-component.css";
-@import "/CSS/components/badge.css";
-@import "/CSS/components/icon-row.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 
 /* Screens */
-@import "/CSS/screens/login.css";
-@import "/CSS/screens/friends.css";
-@import "/CSS/screens/find.css";
-@import "/CSS/screens/more.css";
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   margin: 0;
