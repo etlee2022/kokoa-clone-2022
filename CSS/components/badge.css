@@ -15,8 +15,22 @@
   height: 5px;
   font-family: Times, serif;
 }
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(10px) rotatey(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .icon-notification {
   position: absolute;
   top: -15px;
   right: -15px;
+  animation: notificationAnimation 1s ease-in-out infinite;
 }

@@ -67,11 +67,7 @@
 .open-post__photo {
   position: relative;
 }
-.open-post__photo img {
-  height: 105px;
-  border-radius: 10px;
-  background-color: wheat;
-}
+
 .open-post__heart-count {
   color: white;
   background-color: rgba(0, 0, 0, 0.8);
@@ -88,4 +84,44 @@
 
 .open-post__heart-count span {
   margin-left: 3px;
+}
+
+@keyframes listenToMyHeartbeatU {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: scale(1.1);
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__heart-count .fa-heart:hover {
+  animation: listenToMyHeartbeatU 1s linear infinite;
+  will-change: transform;
+}
+
+@keyframes jumping {
+  0% {
+    transform: none;
+    color: white;
+  }
+  50% {
+    transform: translatey(-15px) rotatex(40deg);
+
+    color: tomato;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.open-post__photo img {
+  animation: jumping 1s ease-in-out infinite;
+  height: 105px;
+  border-radius: 10px;
 }

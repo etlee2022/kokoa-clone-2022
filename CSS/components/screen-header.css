@@ -16,3 +16,16 @@
 .screen-header__icons i {
   position: relative;
 }
+
+@keyframes rotateGear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotatez(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateGear 0.3s linear infinite;
+}
